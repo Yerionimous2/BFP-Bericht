@@ -1,0 +1,78 @@
+% config.tex
+\usepackage[
+  a4paper,
+  left=2.5cm,
+  right=2.5cm,
+  top=2.5cm,
+  bottom=2cm
+]{geometry}
+
+\usepackage{tcolorbox}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{pdfpages}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{mathabx}
+\usepackage{todonotes}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{mathptmx}
+\onehalfspacing
+\usetikzlibrary{positioning, shapes.geometric, shapes.multipart, arrows, calc}
+\tcbuselibrary{listings, skins, breakable}
+
+\newcounter{block}[section]
+\renewcommand{\theblock}{\thesection.\arabic{block}}
+
+\usepackage{etoolbox}
+\preto\section{\setcounter{block}{0}}
+
+%Alle Sections beginnen auf einer neuen Seite
+\let\oldsection\section
+\renewcommand{\section}{\clearpage\oldsection}
+
+\newcommand{\insertpdf}[2][0.8]{%
+  \includepdf[
+    pages=-,
+    scale=#1,
+    pagecommand={%
+      \thispagestyle{plain}%
+      \vspace*{0.5cm}%
+      \centering\small\texttt{#2}%
+    }
+  ]{#2}%
+}
+
+
+\newtcolorbox{block}[1]{
+  enhanced,
+  breakable,
+  colback=green!5!white,
+  colframe=green!65!black,
+  coltitle=black,
+  fonttitle=\bfseries,
+  title=\thesection.\number\numexpr\value{block}+1\relax\ #1,
+  before upper={},
+  after upper={\stepcounter{block}},
+  boxrule=0.8pt,
+  arc=0mm,
+  left=1mm,
+  right=1mm,
+  top=1mm,
+  bottom=1mm,
+}
+
+\newenvironment{beweis}[1][Beweis]{
+  \par\noindent\textbf{#1.}\\ 
+}{
+    \hfill \framebox[1.5ex][c]{}
+    \par\vspace{2em}
+    \noindent
+}
+
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}

@@ -7,6 +7,7 @@
 \contentsline {subsection}{\numberline {2.4}Klausurzulassungsanfrage}{6}{subsection.2.4}%
 \contentsline {subsection}{\numberline {2.5}Mein Vorgehen}{6}{subsection.2.5}%
 \contentsline {section}{\numberline {3}Reflexion des Falls}{7}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Beziehung zu E.}{7}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.1}Allgemeine Beziehung zu E.}{7}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Umgang mit E.s Studiengangwechel}{7}{subsection.3.2}%
 \contentsline {section}{\numberline {4}Fazit: Zusammenhang zum Seminar}{8}{section.4}%
 \contentsline {section}{\numberline {5}Eigenständigkeitserklärung}{9}{section.5}%

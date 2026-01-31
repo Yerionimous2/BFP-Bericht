@@ -10,5 +10,5 @@
 \contentsline {subsection}{\numberline {3.1}Allgemeine Beziehung zu E.}{7}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}E.s Studiengangwechel}{8}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Anfrage der Abgabegruppe}{8}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Fazit: Zusammenhang zum Seminar}{9}{section.4}%
-\contentsline {section}{\numberline {5}Eigenständigkeitserklärung}{10}{section.5}%
+\contentsline {section}{\numberline {4}Fazit: Zusammenhang zum Seminar}{10}{section.4}%
+\contentsline {section}{\numberline {5}Eigenständigkeitserklärung}{11}{section.5}%

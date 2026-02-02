@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1769878462.62676 "/Users/peterminor/Desktop/Latex/BFP Bericht/main.tex" "main.pdf" "main" 1769878463.42511 0
-  "/Users/peterminor/Desktop/Latex/BFP Bericht/main.tex" 1769878462.43618 20613 eb0400ff6ac8daffa1ab58d88743d02c ""
+["pdflatex"] 1770044238.81585 "/Users/peterminor/Desktop/Latex/BFP Bericht/main.tex" "main.pdf" "main" 1770044239.65278 0
+  "/Users/peterminor/Desktop/Latex/BFP Bericht/main.tex" 1770044237.7492 20616 9f37ab5a28c83c3d3ad719bdbd8fa2c5 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -214,16 +214,14 @@
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1744204657 3345732 d9359b84aedec2a428da1d28c0dfff1e ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
   "config.tex" 1769089524.29937 1593 ff2c0ee7cf04f3360ffc1d473ae77183 ""
-  "main.aux" 1769878463.36127 2457 8404caed9bf48dc5aba27e71eb02b5c4 "pdflatex"
-  "main.out" 1769878463.36207 2366 cc1d6964f924d477ed5643e783c699a8 "pdflatex"
-  "main.tdo" 1769878463.36227 140 bafbeada9cc191cbb2ed95067137efa8 "pdflatex"
-  "main.tex" 1769878462.43618 20613 eb0400ff6ac8daffa1ab58d88743d02c ""
-  "main.toc" 1769878463.3623 1166 845b19e688ffbc3276bf937267acef18 "pdflatex"
+  "main.aux" 1770044239.58258 1969 49513a2de623f0fef3149c6c3261585f "pdflatex"
+  "main.out" 1770044239.58325 2366 cc1d6964f924d477ed5643e783c699a8 "pdflatex"
+  "main.tex" 1770044237.7492 20616 9f37ab5a28c83c3d3ad719bdbd8fa2c5 ""
+  "main.toc" 1770044239.58351 1165 da0b7e9ff28615fe715db87c8ec549ed "pdflatex"
   (generated)
   "main.aux"
   "main.log"
   "main.out"
   "main.pdf"
-  "main.tdo"
   "main.toc"
   (rewritten before read)
